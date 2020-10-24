@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body>
+
+        <button id="btnUp" class="bg-main rounded-circle border-0 p-2 text-white">
+            <i class="fa fa-chevron-up" ></i>
+        </button>
+
+        <div class="loading ">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>
+
+                    <!---start navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark " id="main-nav">
+            <div class="container">
+                    <a class="navbar-brand" href="#">Company</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                     <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="#about"><span></span>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects"><span></span>projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span></span>services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-white" href="#">services one</a>
+                        <a class="dropdown-item text-white" href="#">services two</a>
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span></span>products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-white" href="#">product one</a>
+                            <a class="dropdown-item text-white" href="#">product two</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us"><span></span>contact us</a>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+        </nav>
+                    <!---end navbar-->
+
+                    <!--start header-->
+        <header class="home" id="home">
+            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner ">
+                    <div class="slid-content text-white ">
+                        <div class="container h-100 text-center d-flex align-items-center justify-content-center ">
+                            <div    >
+                                    <h1 data-wow-duration='2s' data-wow-delay='0.5s'  class="wow bounceIn big-font">MACHINED</h1>
+                                    <p data-wow-duration='2s' data-wow-delay='1s' class="wow bounceIn title">High Quality Materials In All Solutions
+                                        Standard dummy <br>text ever since the 1500s, when an unknown printer took a galley of type and scrambled it<br> to make a type specimen book
+                                        
+                                        High Quality Materials In All Solutions
+                                    </p>
+                                    <p>
+                                        <a   class="btn btn1 border text-uppercase text-white wow bounceInUp" data-wow-delay="2s" data-wow-duration="5s" href="#">Hire us</a>
+                                        <a  class="btn border text-uppercase text-white wow bounceInUp" data-wow-delay="2s" data-wow-duration="5s" href="#">services</a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active position-relative">
+                        <img src="images/11.jpg" class=" w-100 img-fluid "  alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/22.jpg" class="w-100 img-fluid " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/33.jpg" class=" w-100 img-fluid " alt="...">
+                    </div>
+                </div>
+                <div class="slide-box">
+                    <a class="carousel-control-next d-block position-relative" href="#carouselExampleIndicators" role="button"
+                    data-slide="next">
+            
+                    <div class="cover position-absolute">
+                        <i class="fa fa-arrow-left  text-dark pt-1  "></i>
+                    </div>
+            
+                    <i class="fa fa-arrow-left  "></i>
+                    </a>
+                    <a class="carousel-control-prev position-relative " href="#carouselExampleIndicators" role="button"
+                    data-slide="prev">
+                    <div class="cover position-absolute">
+                        <i class="fa fa-arrow-right text-dark pt-3 "></i>
+                    </div>
+            
+                    <i class="fa fa-arrow-right  "></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!---start about-->
+
+        <section class="about mt-5" id="about">
+            <div class="container">
+                <h2 class="text-center">About</h2>
+                <div class="small-line"></div>
+                <div class="big-line"></div>
+                <div class="small-line"></div>
+                <div class="row mt-4">
+                    <div class="col-lg-4 mt-4">
+                        <div class="image">
+                            <div class="box">
+                                <div class="cover">
+                                    <div class="links">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-instagram-square"></i>
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                </div>
+                              <img src="images/9e456adff0ee4a2c847cfd67a62454a3.webp" class="img-fluid">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-1  mt-4">
+                        <div class="inf" >
+                            <h3>HELLO,</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident,  deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!--end about-->
+
+        <!---start projects-->
+
+        <section class="project" id="projects">
+            <div class="container">
+                <div class="ourwork my-4 mx-auto text-center">
+                    <h2>Our Projects</h2>
+                    <div class="small-line"></div>
+                    <div class="big-line"></div>
+                    <div class="small-line"></div>
+                    <p class="text-muted pt-3" >It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                </div>
+                <ul class="  d-flex justify-content-center nav nav-pills mb-3 pt-2" id="pills-tab" role="tablist">
+                    <li class="nav-item " role="presentation">
+                     <a class="nav-link rounded-pill active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                     <a class="nav-link rounded-pill" id="pills-seo-tab" data-toggle="pill" href="#pills-seo" role="tab" aria-controls="pills-seo" aria-selected="false">SEO</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                     <a class="nav-link rounded-pill" id="pills-web-tab" data-toggle="pill" href="#pills-web" role="tab" aria-controls="pills-web" aria-selected="false">WebDesign</a>
+                    </li>
+        
+                    <li class="nav-item" role="presentation">
+                     <a class="nav-link rounded-pill" id="pills-wor-tab" data-toggle="pill" href="#pills-work" role="tab" aria-controls="pills-work" aria-selected="false">Work</a>
+                    </li>
+        
+                    <li class="nav-item" role="presentation">
+                     <a class="nav-link rounded-pill" id="pills-wordpress-tab" data-toggle="pill" href="#pills-wordpress" role="tab" aria-controls="pills-wordpress" aria-selected="false">Wordpress</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                      <div class="row">
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/11.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 project-content mt-4">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/22.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project two</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 project-content mt-4">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/33.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project three</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 project-content mt-4">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/img2.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project Foure</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 project-content mt-4">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/img4.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project Five</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 project-content mt-4">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/img5.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project Sixe</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-seo" role="tabpanel" aria-labelledby="pills-seo-tab">
+                      <div class="row">
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                <img  class="img-fluid" src="images/img8.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                <img  class="img-fluid" src="images/v11.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/v3 (1).jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/v4.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+                      <div class="row">
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                <img  class="img-fluid" src="images/v5.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/v6.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/v9.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+        
+        
+                    </div>
+        
+        
+                    <div class="tab-pane fade" id="pills-work" role="tabpanel" aria-labelledby="pills-work-tab">
+                      <div class="row">
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                <img  class="img-fluid" src="images/img1.jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/img2 (1).jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-md-4 project-content">
+                                <div class="project-item">
+                                  <img  class="img-fluid" src="images/img8 (1).jpg">
+                                </div>
+                                <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                    <div class="details text-white ">
+                                        <h3>project one</h3>
+                                        <p>For Better Choise</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Wordpress" role="tabpanel" aria-labelledby="pills-Wordpress-tab">
+                        <div class="row">
+                                <div class="col-md-4 project-content">
+                                    <div class="project-item">
+                                    <img  class="img-fluid" src="images/c19c76_5f05f0fa3cc84e448cc6531038e5344d (1).webp">
+                                    </div>
+                                    <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                        <div class="details text-white ">
+                                            <h3>project one</h3>
+                                            <p>For Better Choise</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 project-content">
+                                    <div class="project-item">
+                                      <img  class="img-fluid" src="images/c19c76_22d8ec47d1484b09a9c333e4141a12a0.webp">
+                                    </div>
+                                    <div class="layer text-center  d-flex justify-content-center align-items-center">
+                                        <div class="details text-white ">
+                                            <h3>project one</h3>
+                                            <p>For Better Choise</p>
+                                        </div>
+                                    </div>
+                                </div>
+                       </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!---start services-->
+        <section class="services mt-5" id="services">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-10 text-center ">
+                        <h2>Our Services</h2>
+                        <div class="small-line"></div>
+                        <div class="big-line"></div>
+                        <div class="small-line"></div>
+                    </div>
+                    <div class="col-lg-3 wow rollIn mt-5" data-wow-delay=""data-wow-duration="1s">
+                        <div class="services-box text-center bg-white">
+                            <div class="services-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="services-content p-4">
+                                <h4>Resources</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptatem!</p>
+                            </div>
+                            <span class="circule"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow rollIn mt-5"  data-wow-delay="0.2s" data-wow-duration="1s">
+                        <div class="services-box text-center bg-white">
+                            <div class="services-icon">
+                                <i class="fas fa-align-center"></i>
+                            </div>
+                            <div class="services-content p-4">
+                                <h4>Processes</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, odio!</p>
+                            </div>
+                            <span class="circule"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow rollIn mt-5"  data-wow-delay="0.4s" data-wow-duration="1s">
+                        <div class="services-box text-center bg-white">
+                            <div class="services-icon">
+                                <i class="fab fa-asymmetrik"></i>
+                            </div>
+                            <div class="services-content p-4">
+                                <h4>Mechanical</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, odio!</p>
+                            </div>
+                            <span class="circule"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow rollIn mt-5"  data-wow-delay="0.6s" data-wow-duration="1s">
+                        <div class="services-box text-center bg-white">
+                            <div class="services-icon">
+                                <i class="fab fa-algolia"></i>
+                            </div>
+                            <div class="services-content p-4">
+                                <h4>Electrical</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, odio!</p>
+                            </div>
+                            <span class="circule"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--start products-->
+
+        <section class="products" id="products">
+            <div class="container">
+                <div class="ourwork my-4 mx-auto text-center">
+                    <h2>Our Products</h2>
+                    <div class="small-line"></div>
+                    <div class="big-line"></div>
+                    <div class="small-line"></div>
+                </div>
+                <div class="row my-5">
+
+                    <div class=" col-lg-4 text-left my-3 ">
+                      <div class="products-item bg-white shadow-lg  ">
+                        <div class="img">
+                        <img src="images/v9.jpg" class="img-fluid"  >
+                      </div>
+                        <div class="caption position-relative p-4 ">
+                          <h5>Lorem impsum dolor</h5>
+                          <a href="#">Web Design</a><span> / 18 Sep. 2018</span>
+                          
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class=" col-lg-4 text-left my-3 ">
+                      <div class="products-item bg-white shadow-lg  ">
+                        <div class="img">
+                        <img src="images/v6.jpg" class="img-fluid"  >
+                        </div>
+                        <div class="caption position-relative p-4 ">
+                          <h5>Loreda Cuno Nere</h5>
+                          <a href="#">Web Design</a><span> / 18 Sep. 2018</span>
+                          
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class=" col-lg-4 text-left my-3 ">
+                      <div class="products-item bg-white shadow-lg  ">
+                        <div class="img">
+                        <img src="images/v5.jpg" class="img-fluid"  >
+                        </div>
+                        <div class="caption position-relative p-4 ">
+                          <h5>Mavrito Lana Dere</h5>
+                          <a href="#">Web Design</a><span> / 18 Sep. 2018</span>
+                          
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class=" col-lg-4 text-left my-3 ">
+                      
+                      <div class="products-item bg-white shadow-lg  ">
+                        <div class="img">
+                        <img src="images/v4.jpg" class="img-fluid"  >
+                        </div>
+                        <div class="caption position-relative p-4 ">
+                          <h5>Bindo Laro Cado</h5>
+                          <a href="#">Web Design</a><span> / 18 Sep. 2018</span>
+                          
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class=" col-lg-4  text-left my-3 ">
+                      <div class="products-item bg-white shadow-lg  ">
+                        <div class="img">
+                        <img src="images/img4.jpg" class="img-fluid"  >
+                        </div>
+      
+                        <div class="caption position-relative p-4 ">
+                          <h5>Studio Lena Mado</h5>
+                          <a href="#">Web Design</a><span> / 18 Sep. 2018</span>
+                          
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class=" col-lg-4 text-left my-3 ">
+                      <div class="products-item bg-white shadow-lg  ">
+                        <div class="img">
+                        <img src="images/img5.jpg" class="img-fluid"  >
+                        </div>
+                        <div class="caption position-relative p-4 ">
+                          <h5>Studio Big Bang</h5>
+                          <a href="#">Web Design</a><span> / 18 Sep. 2018</span>
+                          
+                        </div>
+                      </div>
+                    </div>
+      
+                </div>
+
+            </div>
+        </section>
+
+                <!--start contact-->
+
+        <section class="contact py-4" id="contact-us">
+            <div class="container">
+                <h2 class="text-center">Contact Us</h2>
+                <div class="small-line"></div>
+                <div class="big-line"></div>
+                <div class="small-line"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form wow flipInX data-wow-duration='2s' data-wow-delay='.1s'">
+                            <div class="form-group">
+                                <label>First Name:</label>
+                                <input type="text" name="" required="required" class="form-control input-lg" placeholder="User Name" id="firstName">
+                                <div class="text-danger mt-2 d-none alert alert-danger" id="firstNameAlert">
+                                    First Name must be required and  start with upperCase then from 3 to five charachters
+                                </div>
+                                <span class="line"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>last Name:</label>
+                                <input type="text" name="" required="required" class="form-control input-lg" placeholder="last Name" id="lastName">
+                                <div class="text-danger mt-2 d-none alert alert-danger" id="lastNameAlert">
+                                    last Name must be required and  start with upperCase then from 3 to five charachters
+                                </div>
+                                <span class="line"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Email:</label>
+                                <input type="email" name="" required="required" class="form-control input-lg" placeholder="Enter your Email" id="email">
+                                <div class="text-danger mt-2 d-none alert alert-danger" id="emailAlert">
+                                    Email must be required and  start with upperCase then from 3 to five charachters
+                                </div>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow flipInX pt-4 mt-1 "  data-wow-duration='2s' data-wow-delay='.1s'>
+                        <div class="form-group">
+                            <textarea class="form-control  " rows="5" placeholder="Your Message"></textarea>
+                            
+                        </div>
+                        <button type="button" class="btn btn2 btn-block btn-lg" >Contact Us</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+         <!-- srart section footer -->
+         <div class="footer text-center p-5 text-white">
+             <div class="container">
+                <div class="content ">
+                    <ul>
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-google-plus-g"></i></li>
+    
+                    </ul> 
+                    <h4>Copy Right 2020 © <span class="content2">Doaa Khaled</span> All Rights Reserved</h4>
+                </div>
+
+             </div>
+        </div>
+
+      <!-- end section footer -->
+
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/poper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/wow.min.js"></script>
+            <script >new WOW().init(); </script>
+        <script src="js/first.js"></script>
+    </body>
+</html>
